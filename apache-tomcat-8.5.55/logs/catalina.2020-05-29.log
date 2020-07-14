@@ -1,0 +1,99 @@
+29-May-2020 16:41:43.387 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.55
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 22:10:54 UTC
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.55.0
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Linux
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           4.15.0-101-generic
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /usr/lib/jvm/java-8-openjdk-amd64/jre
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_252-8u252-b09-1~16.04-b09
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Private Build
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /home/yaoyifei/apache-tomcat-8.5.55
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /home/yaoyifei/apache-tomcat-8.5.55
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/home/yaoyifei/apache-tomcat-8.5.55/conf/logging.properties
+29-May-2020 16:41:43.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/home/yaoyifei/apache-tomcat-8.5.55
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/home/yaoyifei/apache-tomcat-8.5.55
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/home/yaoyifei/apache-tomcat-8.5.55/temp
+29-May-2020 16:41:43.391 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 16:41:43.442 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 16:41:43.450 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+29-May-2020 16:41:43.457 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 313 ms
+29-May-2020 16:41:43.503 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 16:41:43.503 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+29-May-2020 16:41:43.516 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/yaoyifei/apache-tomcat-8.5.55/webapps/ROOT]
+29-May-2020 16:41:43.681 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/yaoyifei/apache-tomcat-8.5.55/webapps/ROOT]的部署已在[163]毫秒内完成
+29-May-2020 16:41:43.681 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/yaoyifei/apache-tomcat-8.5.55/webapps/examples]
+29-May-2020 16:41:43.796 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/yaoyifei/apache-tomcat-8.5.55/webapps/examples]的部署已在[115]毫秒内完成
+29-May-2020 16:41:43.796 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/yaoyifei/apache-tomcat-8.5.55/webapps/host-manager]
+29-May-2020 16:41:43.822 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/yaoyifei/apache-tomcat-8.5.55/webapps/host-manager]的部署已在[26]毫秒内完成
+29-May-2020 16:41:43.822 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/yaoyifei/apache-tomcat-8.5.55/webapps/docs]
+29-May-2020 16:41:43.827 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/yaoyifei/apache-tomcat-8.5.55/webapps/docs]的部署已在[5]毫秒内完成
+29-May-2020 16:41:43.828 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/home/yaoyifei/apache-tomcat-8.5.55/webapps/manager]
+29-May-2020 16:41:43.836 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/home/yaoyifei/apache-tomcat-8.5.55/webapps/manager]的部署已在[7]毫秒内完成
+29-May-2020 16:41:43.837 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 16:41:43.844 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 386 ms
+29-May-2020 16:46:53.914 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/home/yaoyifei/apache-tomcat-8.5.55/webapps/source.war]
+29-May-2020 16:46:54.243 信息 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+29-May-2020 16:46:54.252 警告 [localhost-startStop-2] org.opensolaris.opengrok.web.WebappListener.contextInitialized OpenGrok Configuration error. Failed to read config file: 
+	java.io.FileNotFoundException: /var/opengrok/etc/configuration.xml (没有那个文件或目录)
+		at java.io.FileInputStream.open0(Native Method)
+		at java.io.FileInputStream.open(FileInputStream.java:195)
+		at java.io.FileInputStream.<init>(FileInputStream.java:138)
+		at org.opensolaris.opengrok.configuration.Configuration.read(Configuration.java:1139)
+		at org.opensolaris.opengrok.configuration.RuntimeEnvironment.readConfiguration(RuntimeEnvironment.java:1142)
+		at org.opensolaris.opengrok.web.WebappListener.contextInitialized(WebappListener.java:72)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4697)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5163)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1840)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+29-May-2020 16:46:54.254 警告 [localhost-startStop-2] org.opensolaris.opengrok.authorization.AuthorizationFramework.reload Plugin directory not found or not readable: null. All requests allowed.
+29-May-2020 16:46:54.255 信息 [localhost-startStop-2] org.opensolaris.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opensolaris.opengrok.configuration.RuntimeEnvironment.loadStatistics(RuntimeEnvironment.java:1513)
+		at org.opensolaris.opengrok.web.WebappListener.contextInitialized(WebappListener.java:107)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4697)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5163)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1840)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+29-May-2020 16:46:54.256 信息 [localhost-startStop-2] org.opensolaris.opengrok.web.WebappListener.contextInitialized Could not load statistics from a file.
+	java.io.FileNotFoundException: Statistics file is not set (null)
+		at org.opensolaris.opengrok.configuration.RuntimeEnvironment.loadStatistics(RuntimeEnvironment.java:1513)
+		at org.opensolaris.opengrok.web.WebappListener.contextInitialized(WebappListener.java:122)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4697)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5163)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1840)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+29-May-2020 16:46:54.751 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/home/yaoyifei/apache-tomcat-8.5.55/webapps/source.war]的部署已在[837]ms内完成
+29-May-2020 18:00:28.590 信息 [configurationListener] org.opensolaris.opengrok.configuration.RuntimeEnvironment.applyConfig Configuration updated: /home/yaoyifei/AndroidStudioProjects/MyApplication
+29-May-2020 18:00:28.609 警告 [configurationListener] org.opensolaris.opengrok.authorization.AuthorizationFramework.reload Plugin directory not found or not readable: /var/opengrok/data/../plugins. All requests allowed.
