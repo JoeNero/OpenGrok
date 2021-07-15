@@ -1,11 +1,23 @@
 # OpenGrok 
 搭建openGrok需要3个工具一个环境:
+
 工具：
+
 1.tomcat作为容器
+
 2.openGrok搭建索引的主要工具
+
 3.ctags创建tag工具
+
 环境:
+
 jave jdk环境
+懒人秘籍/这个可以再装，反正编译项目用的版本比这个高，我这个就是怕一些人搭建的系统选用不到jre 这些
+```
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+```
 
 
 用以下的命令克隆仓库，这个仓库里面已经有了tomcat和openGrok.
