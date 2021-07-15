@@ -1,4 +1,4 @@
-# OpenGrok 
+# OpenGrok 搭建
 搭建openGrok需要3个工具一个环境:
 
 工具：
@@ -31,7 +31,7 @@ ctags有两个版本.我用过觉得都没啥太大差别。
 sudo apt install ctags
 ```
 装完ctags再用ctags--version检查下下载的版本吧.
-
+## Tomcat 
 下载完成,打开.bashrc环境配置文件
 ```
 vim ~/.bashrc
@@ -65,6 +65,9 @@ sudo sh startup.sh
 ```
 http://localhost:8080
 ```
+如果出现tomcat的图标界面，就说明容器这部分搭建已经没有问题，接下来搭建openGrok部分
+
+## OpenGrok
 部署opengrok
 进入opengrok bin目录
 ```
@@ -76,10 +79,11 @@ http://localhost:8080/source
 ```
 建立索引
 ```
-sudo ./OpenGrok index /root/chrome  #代码存放的位置:ps,项目的代码都很大.像.repo 还有out文件这些，你不用建立对应的索引,没有用的.挪出去.建完再挪回来
+sudo ./OpenGrok index /root/chrome  
+#代码存放的位置:ps,项目的代码都很大.像.repo 还有out文件这些，你不用建立对应的索引,没有用的.挪出去.建完再挪回来
 ```
 然后喝口水放着，索引会建立一阵子，一般几个小时到一个下午时间，看项目代码大小，所以我建议先挪用不到的.
-最终生成的索引默认会存放在
+最终生成的索引默认会存放在这个路径下，如果嫌弃太大就删掉吧
 ```
 /var/opengrok
 ```
